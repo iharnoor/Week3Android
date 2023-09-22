@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun setImageUsingGlide(){
+    private fun setImageUsingGlide() {
         Glide
             .with(this)
             .load("https://image.tmdb.org/t/p/original/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg")
